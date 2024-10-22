@@ -6,187 +6,256 @@
     <title>Portofolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <!--Header-->
-    <header>
-        <div class="main-container">
-            <div class="nav">
-                <div class="logo">
-                    <a href="/">FH</a>
+    <body>
+        <!--Header-->
+        <header>
+            <div class="main-container">
+                <div class="nav">
+                    <div class="logo">
+                        <a href="/">FH</a>
+                    </div>
+
+                    <nav>
+                        <ul>
+                            <li><a href="#service">Service</a></li>
+                            <li><a href="#portfolio">Portofolio</a></li>
+                            <li><a href="#skill">Skill</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="/resume.pdf" target="_blank">
+                                <button class="class-btn">Resume</button>
+                            </a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="burger">
+                        <div class="line-1"> </div>
+                        <div class="line-2"> </div>
+                        <div class="line-3"> </div>
+                    </div>
                 </div>
 
-                <nav>
-                    <ul>
-                        <li><a href="#service">Service</a></li>
-                        <li><a href="#portfolio">Portofolio</a></li>
-                        <li><a href="#skill">Skill</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="/resume.pdf" target="_blank">
-                            <button class="class-btn">Resume</button>
-                        </a></li>
-                    </ul>
-                </nav>
+                <section id="hero">
+                    <div class="hero-left">
+                        <h3 class="pre-title">My Name is</h3>
+                        <h1 class="hero name">Muhammad <span>Farhan Yanuar</span></h1>
+                        <p>Creative for making FrontEnd using Html, 
+                            Css, and JavaScript, I'm a new graduate, 
+                            still learning for Css and JavaScript.</p>
+                    </div>
+                    <div class="hero-righ">
+                        <img src="img.svg" alt="Person Stand">
+                    </div>
+                </section>
+            </div>
+        </header>
+        <!--End of Header-->
 
-                <div class="burger">
-                    <div class="line-1"> </div>
-                    <div class="line-2"> </div>
-                    <div class="line-3"> </div>
+        <section id="service">
+            <div class="service main-container">
+                <h3 class="pre-title">Service</h3>
+                <h1 class="section-title service-title">Specialized In</h1>
+
+                <div class="grid-3">
+                    <!--Service 1-->
+                    <div class="service">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.088 8.063c.062-.243.1-.426.135-.605l-1.1-.214-.109.5c-.371-.055-.767-.061-1.166-.021.009-.268.025-.531.049-.784h1.229v-1.042h-1.082c.054-.265.099-.424.144-.575l-1.074-.322c-.079.263-.144.521-.211.897h-1.225v1.042h1.092c-.029.336-.046.685-.051 1.038-1.207.443-1.719 1.288-1.719 2.053 0 .904.714 1.7 1.842 1.598 1.401-.128 2.337-1.186 2.885-2.487.567.327.805.876.591 1.385-.197.471-.78.919-1.892.896v1.121c1.234.019 2.448-.45 2.925-1.583.464-1.107-.067-2.317-1.263-2.897zm-1.446.766c-.175.387-.405.772-.698 1.075-.045-.323-.076-.676-.092-1.054.267-.035.537-.041.79-.021zm-1.894.362c.03.473.084.909.158 1.298-.998.183-1.038-.801-.158-1.298zm-5.748.161c0 1.873.849 2.943 1.683 3.943.031 1 .085 1.668-.333 3.183 1.748-.558 2.038-.778 3.008-1.374 1 .244 1.474.381 2.611.491-.094.708-.081 1.275.055 2.023-.752-.06-1.528-.178-2.33-.374-1.397.857-4.481 1.725-6.649 2.115.811-1.595 1.708-3.785 1.661-5.312-1.091-1.305-1.706-2.985-1.706-4.695 0-4.826 4.719-8.352 10-8.352 5.237 0 9.977 3.484 9.998 8.318-.644-.175-1.322-.277-2.021-.314-.229-3.34-3.713-6.004-7.977-6.004-4.411 0-8 2.85-8 6.352zm15.657 5.429l.725 2.074h-1.445l.72-2.074zm6.343 1.666c0-3.158-3.089-5.467-6.546-5.467-3.436 0-6.546 2.293-6.546 5.467 0 2.8 2.633 5.442 6.498 5.442.699 0 1.44-.087 2.213-.274.914.561 2.933 1.127 4.352 1.385-.53-1.045-1.117-2.479-1.088-3.479.714-.853 1.117-1.954 1.117-3.074zm-4.851 2.553l-.456-1.27h-2.062l-.451 1.27h-1.18l2.099-5.5h1.101l2.091 5.5h-1.142z"/>
+                            </svg>
+                        </div>
+                        <h4>Japanese Language</h4>
+                        <p>I can translate Japanese Language basic, 
+                            I'm still in N5, but i'm still in progress 
+                            to the next N4</p>
+                    </div>
+
+                    <!--Service 2-->
+                    <div class="service">
+                        <div class="service-icon">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M16 3.383l-.924-.383-7.297 17.617.924.383 7.297-17.617zm.287 3.617l6.153 4.825-6.173 5.175.678.737 7.055-5.912-7.048-5.578-.665.753zm-8.478 0l-6.249 4.825 6.003 5.175-.679.737-6.884-5.912 7.144-5.578.665.753z"/>
+                            </svg>
+                        </div>
+                        <h4>Basic Programmer</h4>
+                        <p>I'm on progress become Professional Programmer, 
+                            Even i'm still in learn with Frontend but 
+                            i dont wanna Give up</p>
+                    </div>
+
+                    <!--Service 3-->
+                    <div class="service">
+                        <div class="service-icon">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M6.72 20.492c1.532.956 3.342 1.508 5.28 1.508 1.934 0 3.741-.55 5.272-1.503l1.24 1.582c-1.876 1.215-4.112 1.921-6.512 1.921-2.403 0-4.642-.708-6.52-1.926l1.24-1.582zm6.405-.992l-.594.391c-.077.069-.19.109-.307.109h-.447c-.118 0-.231-.04-.308-.109l-.594-.391h2.25zm10.875-.5h-6c0-1.105.895-2 2-2h2c.53 0 1.039.211 1.414.586s.586.883.586 1.414zm-18 0h-6c0-1.105.895-2 2-2h2c.53 0 1.039.211 1.414.586s.586.883.586 1.414zm7.146-.5c.138 0 .25.112.25.25s-.112.25-.25.25h-2.279c-.138 0-.25-.112-.25-.25s.112-.25.25-.25h2.279zm.247-.5c0-2.002 1.607-2.83 1.607-4.614 0-1.86-1.501-2.886-3.001-2.886s-2.999 1.024-2.999 2.886c0 1.784 1.607 2.639 1.607 4.614h2.786zm7.607-6c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25zm-18 0c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25zm12.87 2.385l1.349.612-.413.911-1.298-.588c.15-.3.275-.608.362-.935zm-7.739 0c.087.332.208.631.36.935l-1.296.588-.414-.911 1.35-.612zm9.369-1.885v1h-1.501c.01-.335-.02-.672-.093-1h1.594zm-9.406 0c-.072.327-.102.663-.092.997v.003h-1.502v-1h1.594zm6.928-1.714l1.242-.882.579.816-1.252.888c-.146-.291-.335-.566-.569-.822zm-6.044-.001c-.23.252-.418.525-.569.823l-1.251-.888.578-.816 1.242.881zm4.435-1.046l.663-1.345.897.443-.664 1.345c-.278-.184-.58-.332-.896-.443zm-2.826-.001c-.315.11-.618.258-.897.442l-.663-1.343.897-.443.663 1.344zm-2.587-9.054v2.149c-2.938 1.285-5.141 3.942-5.798 7.158l-2.034-.003c.732-4.328 3.785-7.872 7.832-9.304zm8 0c4.047 1.432 7.1 4.976 7.832 9.304l-2.034.003c-.657-3.216-2.86-5.873-5.798-7.158v-2.149zm-3.5 8.846c-.334-.039-.654-.041-1-.001v-1.529h1v1.53zm2.5-2.53h-6c0-1.105.895-2 2-2h2c.53 0 1.039.211 1.414.586s.586.884.586 1.414zm-3-7c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25z"/></svg>
+                        </div>
+                        <h4>Team Working</h4>
+                        <p>I can translate Japanese Language basic, 
+                            I'm still in N5, but i'm still in progress 
+                            to the next N4</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--End of Service-->
+
+        <!--Portfolio Section-->
+        <section id="portfolios">
+            <div class="portfolio main-container">
+                <h3 class="pre-title">Services</h3>
+                <h1 class="section-title">Featured of Working</h1>
+
+                <div class="grid-3">
+                    <!--Portfolio 1-->
+                    <div class="portfolio">
+                        <div class="portfolio-cover">
+                            <img src="Portfolio_1.png" alt="Portfolio-1">
+                        </div>
+
+                        <div class="portfolio-info">
+                            <div class="portfolio-title">
+                                <h4>Marketing Website</h4>
+                                <a href="/" class="portfolio-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 7c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5zm11.122 12.065c-.073.301-.122.611-.122.935 0 2.209 1.791 4 4 4s4-1.791 4-4-1.791-4-4-4c-1.165 0-2.204.506-2.935 1.301l-5.488-2.927c-.23.636-.549 1.229-.943 1.764l5.488 2.927zm7.878-15.065c0-2.209-1.791-4-4-4s-4 1.791-4 4c0 .324.049.634.122.935l-5.488 2.927c.395.535.713 1.127.943 1.764l5.488-2.927c.731.795 1.77 1.301 2.935 1.301 2.209 0 4-1.791 4-4z"/></svg>
+                                </a>
+                            </div>
+
+                            <div class="porfolio-tags">
+                                <div>React</div>
+                                <div>Tailwind</div>
+                            </div>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Mollitia repudiandae accusantium libero repellat fuga! 
+                                Cupiditate aspernatur corrupti aliquam perferendis maiores.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Portfolio 2-->
+                    <div class="portfolio">
+                        <div class="portfolio-cover">
+                            <img src="Portfolio_2.png" alt="Portfolio-1">
+                        </div>
+
+                        <div class="portfolio-info">
+                            <div class="portfolio-title">
+                                <h4>Calender Website</h4>
+                                <a href="/" class="portfolio-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 7c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5zm11.122 12.065c-.073.301-.122.611-.122.935 0 2.209 1.791 4 4 4s4-1.791 4-4-1.791-4-4-4c-1.165 0-2.204.506-2.935 1.301l-5.488-2.927c-.23.636-.549 1.229-.943 1.764l5.488 2.927zm7.878-15.065c0-2.209-1.791-4-4-4s-4 1.791-4 4c0 .324.049.634.122.935l-5.488 2.927c.395.535.713 1.127.943 1.764l5.488-2.927c.731.795 1.77 1.301 2.935 1.301 2.209 0 4-1.791 4-4z"/></svg>
+                                </a>
+                            </div>
+
+                            <div class="porfolio-tags">
+                                <div>Html</div>
+                                <div>JavaScript</div>
+                            </div>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Mollitia repudiandae accusantium libero repellat fuga! 
+                                Cupiditate aspernatur corrupti aliquam perferendis maiores.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Portolio 3-->
+                    <div class="portfolio">
+                        <div class="portfolio-cover">
+                            <img src="Portfolio-3.png" alt="Portfolio-1">
+                        </div>
+
+                        <div class="portfolio-info">
+                            <div class="portfolio-title">
+                                <h4>Auto-Text Website</h4>
+                                <a href="/" class="portfolio-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 7c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5zm11.122 12.065c-.073.301-.122.611-.122.935 0 2.209 1.791 4 4 4s4-1.791 4-4-1.791-4-4-4c-1.165 0-2.204.506-2.935 1.301l-5.488-2.927c-.23.636-.549 1.229-.943 1.764l5.488 2.927zm7.878-15.065c0-2.209-1.791-4-4-4s-4 1.791-4 4c0 .324.049.634.122.935l-5.488 2.927c.395.535.713 1.127.943 1.764l5.488-2.927c.731.795 1.77 1.301 2.935 1.301 2.209 0 4-1.791 4-4z"/></svg>
+                                </a>
+                            </div>
+
+                            <div class="porfolio-tags">
+                                <div>Html</div>
+                                <div>JavaScript</div>
+                            </div>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Mollitia repudiandae accusantium libero repellat fuga! 
+                                Cupiditate aspernatur corrupti aliquam perferendis maiores.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+        <!--End of Fortfolio-->
 
-            <section id="hero">
-                <div class="hero-left">
-                    <h3 class="pre-title">My Name is</h3>
-                    <h1 class="hero name">Muhammad <span>Farhan Yanuar</span></h1>
-                    <p>Creative for making FrontEnd using Html, 
-                        Css, and JavaScript, I'm a new graduate, 
-                        still learning for Css and JavaScript.</p>
-                </div>
-                <div class="hero-righ">
-                    <img src="img.svg" alt="Person Stand">
-                </div>
-            </section>
-        </div>
-    </header>
-    <!--End of Header-->
-
-    <section id="service">
-        <div class="service main-container">
-            <h3 class="pre-title">Service</h3>
-            <h1 class="section-title service-title">Specialized In</h1>
-
-            <div class="grid-3">
-                <!--Service 1-->
-                <div class="service">
-                    <div class="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.088 8.063c.062-.243.1-.426.135-.605l-1.1-.214-.109.5c-.371-.055-.767-.061-1.166-.021.009-.268.025-.531.049-.784h1.229v-1.042h-1.082c.054-.265.099-.424.144-.575l-1.074-.322c-.079.263-.144.521-.211.897h-1.225v1.042h1.092c-.029.336-.046.685-.051 1.038-1.207.443-1.719 1.288-1.719 2.053 0 .904.714 1.7 1.842 1.598 1.401-.128 2.337-1.186 2.885-2.487.567.327.805.876.591 1.385-.197.471-.78.919-1.892.896v1.121c1.234.019 2.448-.45 2.925-1.583.464-1.107-.067-2.317-1.263-2.897zm-1.446.766c-.175.387-.405.772-.698 1.075-.045-.323-.076-.676-.092-1.054.267-.035.537-.041.79-.021zm-1.894.362c.03.473.084.909.158 1.298-.998.183-1.038-.801-.158-1.298zm-5.748.161c0 1.873.849 2.943 1.683 3.943.031 1 .085 1.668-.333 3.183 1.748-.558 2.038-.778 3.008-1.374 1 .244 1.474.381 2.611.491-.094.708-.081 1.275.055 2.023-.752-.06-1.528-.178-2.33-.374-1.397.857-4.481 1.725-6.649 2.115.811-1.595 1.708-3.785 1.661-5.312-1.091-1.305-1.706-2.985-1.706-4.695 0-4.826 4.719-8.352 10-8.352 5.237 0 9.977 3.484 9.998 8.318-.644-.175-1.322-.277-2.021-.314-.229-3.34-3.713-6.004-7.977-6.004-4.411 0-8 2.85-8 6.352zm15.657 5.429l.725 2.074h-1.445l.72-2.074zm6.343 1.666c0-3.158-3.089-5.467-6.546-5.467-3.436 0-6.546 2.293-6.546 5.467 0 2.8 2.633 5.442 6.498 5.442.699 0 1.44-.087 2.213-.274.914.561 2.933 1.127 4.352 1.385-.53-1.045-1.117-2.479-1.088-3.479.714-.853 1.117-1.954 1.117-3.074zm-4.851 2.553l-.456-1.27h-2.062l-.451 1.27h-1.18l2.099-5.5h1.101l2.091 5.5h-1.142z"/>
-                        </svg>
-                    </div>
-                    <h4>Japanese Language</h4>
-                    <p>I can translate Japanese Language basic, 
-                        I'm still in N5, but i'm still in progress 
-                        to the next N4</p>
-                </div>
-
-                <!--Service 2-->
-                <div class="service">
-                    <div class="service-icon">
-                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M16 3.383l-.924-.383-7.297 17.617.924.383 7.297-17.617zm.287 3.617l6.153 4.825-6.173 5.175.678.737 7.055-5.912-7.048-5.578-.665.753zm-8.478 0l-6.249 4.825 6.003 5.175-.679.737-6.884-5.912 7.144-5.578.665.753z"/>
-                        </svg>
-                    </div>
-                    <h4>Basic Programmer</h4>
-                    <p>I'm on progress become Professional Programmer, 
-                        Even i'm still in learn with Frontend but 
-                        i dont wanna Give up</p>
-                </div>
-
-                <!--Service 3-->
-                <div class="service">
-                    <div class="service-icon">
-                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M6.72 20.492c1.532.956 3.342 1.508 5.28 1.508 1.934 0 3.741-.55 5.272-1.503l1.24 1.582c-1.876 1.215-4.112 1.921-6.512 1.921-2.403 0-4.642-.708-6.52-1.926l1.24-1.582zm6.405-.992l-.594.391c-.077.069-.19.109-.307.109h-.447c-.118 0-.231-.04-.308-.109l-.594-.391h2.25zm10.875-.5h-6c0-1.105.895-2 2-2h2c.53 0 1.039.211 1.414.586s.586.883.586 1.414zm-18 0h-6c0-1.105.895-2 2-2h2c.53 0 1.039.211 1.414.586s.586.883.586 1.414zm7.146-.5c.138 0 .25.112.25.25s-.112.25-.25.25h-2.279c-.138 0-.25-.112-.25-.25s.112-.25.25-.25h2.279zm.247-.5c0-2.002 1.607-2.83 1.607-4.614 0-1.86-1.501-2.886-3.001-2.886s-2.999 1.024-2.999 2.886c0 1.784 1.607 2.639 1.607 4.614h2.786zm7.607-6c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25zm-18 0c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25zm12.87 2.385l1.349.612-.413.911-1.298-.588c.15-.3.275-.608.362-.935zm-7.739 0c.087.332.208.631.36.935l-1.296.588-.414-.911 1.35-.612zm9.369-1.885v1h-1.501c.01-.335-.02-.672-.093-1h1.594zm-9.406 0c-.072.327-.102.663-.092.997v.003h-1.502v-1h1.594zm6.928-1.714l1.242-.882.579.816-1.252.888c-.146-.291-.335-.566-.569-.822zm-6.044-.001c-.23.252-.418.525-.569.823l-1.251-.888.578-.816 1.242.881zm4.435-1.046l.663-1.345.897.443-.664 1.345c-.278-.184-.58-.332-.896-.443zm-2.826-.001c-.315.11-.618.258-.897.442l-.663-1.343.897-.443.663 1.344zm-2.587-9.054v2.149c-2.938 1.285-5.141 3.942-5.798 7.158l-2.034-.003c.732-4.328 3.785-7.872 7.832-9.304zm8 0c4.047 1.432 7.1 4.976 7.832 9.304l-2.034.003c-.657-3.216-2.86-5.873-5.798-7.158v-2.149zm-3.5 8.846c-.334-.039-.654-.041-1-.001v-1.529h1v1.53zm2.5-2.53h-6c0-1.105.895-2 2-2h2c.53 0 1.039.211 1.414.586s.586.884.586 1.414zm-3-7c1.242 0 2.25 1.008 2.25 2.25s-1.008 2.25-2.25 2.25-2.25-1.008-2.25-2.25 1.008-2.25 2.25-2.25z"/></svg>
-                    </div>
-                    <h4>Team Working</h4>
-                    <p>I can translate Japanese Language basic, 
-                        I'm still in N5, but i'm still in progress 
-                        to the next N4</p>
-                </div>
+        <!--Part of Skills and Education-->
+        <section id="skills">
+            <div class="skills main-container">
+                <h3 class="pre-title">Learning Path</h3>
+                <h1 class="section-title">Skills and Education</h1>
             </div>
 
-        </div>
-    </section>
-    <!--End of Service-->
+            <div class="skills-grid">
+                <div class="skills-left">
+                    <!--Education 1-->
+                    <div class="education">
+                        <div class="line">
+                            <div ></div>
+                        </div>
 
-    <!--Portfolio Section-->
-    <section id="portfolios">
-        <div class="portfolio-main-container">
-            <h3 class="pre-title">Services</h3>
-            <h1 class="section-title">Featured of Working</h1>
+                        <div class="education-info">
+                            <h4 class="education-title">Sekolah Karakter</h4>
+                            <p>Graduation in Science Major</p>
+                            <h4 class="education-years">2019-2022</h4>
+                        </div>
+                    </div>
+                    <!--Education 2-->
+                    <div class="education">
+                        <div class="line">
+                            <div ></div>
+                        </div>
 
-            <div class="grid-3">
-                <!--Portfolio 1-->
-                <div class="portfolio">
-                    <div class="portfolio-cover">
-                        <img src="Portfolio_1.png" alt="Portfolio-1">
+                        <div class="education-info">
+                            <h4 class="education-title">Sekolah Karakter</h4>
+                            <p>Graduation in Science Major</p>
+                            <h4 class="education-years">2019-2022</h4>
+                        </div>
                     </div>
 
-                    <div class="portfolio-info">
-                        <div class="portfolio-title">
-                            <h4>Marketing Website</h4>
-                            <a href="/" class="portfolio-link">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 7c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5zm11.122 12.065c-.073.301-.122.611-.122.935 0 2.209 1.791 4 4 4s4-1.791 4-4-1.791-4-4-4c-1.165 0-2.204.506-2.935 1.301l-5.488-2.927c-.23.636-.549 1.229-.943 1.764l5.488 2.927zm7.878-15.065c0-2.209-1.791-4-4-4s-4 1.791-4 4c0 .324.049.634.122.935l-5.488 2.927c.395.535.713 1.127.943 1.764l5.488-2.927c.731.795 1.77 1.301 2.935 1.301 2.209 0 4-1.791 4-4z"/></svg>
-                            </a>
+                    <div class="education">
+                        <div class="line">
+                            <div ></div>
                         </div>
-
-                        <div class="porfolio-tags">
-                            <div>React</div>
-                            <div>Tailwind</div>
+                        <!--Education 3-->
+                        <div class="education-info">
+                            <h4 class="education-title">Sekolah Karakter</h4>
+                            <p>Graduation in Science Major</p>
+                            <h4 class="education-years">2019-2022</h4>
                         </div>
-
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Mollitia repudiandae accusantium libero repellat fuga! 
-                            Cupiditate aspernatur corrupti aliquam perferendis maiores.
-                        </p>
-                    </div>
-                </div>
-
-                <!--Portfolio 2-->
-                <div class="portfolio">
-                    <div class="portfolio-cover">
-                        <img src="Portfolio_2.png" alt="Portfolio-1">
-                    </div>
-
-                    <div class="portfolio-info">
-                        <div class="portfolio-title">
-                            <h4>Calender Website</h4>
-                            <a href="/" class="portfolio-link">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 7c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5zm11.122 12.065c-.073.301-.122.611-.122.935 0 2.209 1.791 4 4 4s4-1.791 4-4-1.791-4-4-4c-1.165 0-2.204.506-2.935 1.301l-5.488-2.927c-.23.636-.549 1.229-.943 1.764l5.488 2.927zm7.878-15.065c0-2.209-1.791-4-4-4s-4 1.791-4 4c0 .324.049.634.122.935l-5.488 2.927c.395.535.713 1.127.943 1.764l5.488-2.927c.731.795 1.77 1.301 2.935 1.301 2.209 0 4-1.791 4-4z"/></svg>
-                            </a>
-                        </div>
-
-                        <div class="porfolio-tags">
-                            <div>Html</div>
-                            <div>JavaScript</div>
-                        </div>
-
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Mollitia repudiandae accusantium libero repellat fuga! 
-                            Cupiditate aspernatur corrupti aliquam perferendis maiores.
-                        </p>
                     </div>
                 </div>
+                <div class="skills-right">
+                    <p>From 3 Years I've been learning about:</p>
 
-                <!--Portolio 3-->
-                <div class="portfolio">
-                    <div class="portfolio-cover">
-                        <img src="Portfolio-3.png" alt="Portfolio-1">
-                    </div>
+                    <div class="skills-list">
+                        <ul>
+                            <li>Html</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>ReactJS</li>
+                            <li>GitHub</li>
+                            <li>Git</li>
+                        </ul>
 
-                    <div class="portfolio-info">
-                        <div class="portfolio-title">
-                            <h4>Auto-Text Website</h4>
-                            <a href="/" class="portfolio-link">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 7c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5zm11.122 12.065c-.073.301-.122.611-.122.935 0 2.209 1.791 4 4 4s4-1.791 4-4-1.791-4-4-4c-1.165 0-2.204.506-2.935 1.301l-5.488-2.927c-.23.636-.549 1.229-.943 1.764l5.488 2.927zm7.878-15.065c0-2.209-1.791-4-4-4s-4 1.791-4 4c0 .324.049.634.122.935l-5.488 2.927c.395.535.713 1.127.943 1.764l5.488-2.927c.731.795 1.77 1.301 2.935 1.301 2.209 0 4-1.791 4-4z"/></svg>
-                            </a>
-                        </div>
-
-                        <div class="porfolio-tags">
-                            <div>Html</div>
-                            <div>JavaScript</div>
-                        </div>
-
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Mollitia repudiandae accusantium libero repellat fuga! 
-                            Cupiditate aspernatur corrupti aliquam perferendis maiores.
-                        </p>
+                        <ul>
+                            <li>Japanese Language N5</li>
+                            <li>Japanese Language N4</li>
+                            <li>Intermediate English</li>
+                            <li>C++</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!--End of Fortfolio-->
-</body>
+        </section>
+    </body>
 </html>
